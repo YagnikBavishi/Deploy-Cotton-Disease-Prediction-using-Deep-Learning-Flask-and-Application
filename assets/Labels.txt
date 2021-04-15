@@ -1,0 +1,4 @@
+disease cotton leaf
+disease cotton plant
+fresh cotton leaf
+fresh cotton plant
