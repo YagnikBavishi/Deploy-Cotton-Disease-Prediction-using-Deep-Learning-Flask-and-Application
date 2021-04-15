@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+ 
+    <title>COTTON PLANT DISEASE PREDICTION</title>
+ 
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            background-color: black;
+        }
+ 
+        .card-style {
+            border :5px solid #ffbd39;
+ 
+        }
+ 
+        .content {
+            padding: 15px;
+            color: white;
+            background-color: rgb(153, 156, 150);
+            /* font-size: 1rem; */
+        }
+ 
+        @media (max-width: 430px) and (min-width: 200px) {
+ 
+            .contents {
+                font-size: 0.6rem;
+                color: chartreuse;
+            }
+ 
+            .content-h1 {
+ 
+                font-size: 1rem;
+            }
+        }
+ 
+        .border img {
+            border-radius: 15px;
+            border: 2px solid #ffbd39;
+            
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+    <div>
+        <img src="static/images/BeFunky-design1.png" class="w3-border w3-padding" alt="Indian AI Production"
+            style="width:100% ; border: 2px solid #ffbd39;">
+    </div>
+ 
+    <div class="container-fluid" style="margin-bottom: -50px;">
+        <br>
+        <div class="row mb-5">
+ 
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <!-- <span class="border border-primary" >
+                    <img style="height: 400px ; width: 400px; margin-left: 50px;" src="{{ user_image }}" alt="User Image" class="img-thumbnail" >
+                
+                </span> -->
+                <img style="height: 450px ; width: 450px; margin-left: 200px; border :5px solid #ffbd39;" src="{{ user_image }}" alt="User Image" class="img-thumbnail" >
+            </div>
+ 
+            <div class="col-sm">
+ 
+                <div>
+                    <h1 style="padding: 15px; background-color: #ffbd39; color: white; margin-right: 200px;"
+                        class="text-center mb-5 content-h1">
+                        {{pred_output}} </h1>
+                </div>
+ 
+                <h1 style="color: #ffbd39;">Disease Name : </span></h1>
+                <h5 style="line-height: 100%; color: white;">Attack of Leaf Sucking and Chewing Pests  </h5>
+                <hr class="w-100 mx-auto ">
+                <h1 style="color: #ffbd39;"> Solution for Disease : </h1>
+                <h5 style="color:white;">Use any one Systemic Insecticide, which contain Flonicamid 50%/ Thiamethoxam 25% WG / Imidacloprid
+                    17.8 Sl / Acetamiprid 20% SP.</h5></br></div>
+                
+            </div>
+        </div>
+ 
+        <!-- <h1 style="color: #ffbd39; margin-left: 200px;"> Solution for Disease : </h1>
+        <p style="color:white; margin-left: 200px;">Use any one Systemic Insecticide, which contain Flonicamid 50%/ Thiamethoxam 25% WG / Imidacloprid
+                    17.8 Sl / Acetamiprid 20% SP.</p></br>
+        <p></p> -->
+          
+    </div>
+ 
+    <section  >
+ 
+        <div class="container">
+            <h1 style="padding: 15px; background-color: #ffbd39; color: white;"
+                class="text-center my-3 content-h1">
+            Recommended Products</h1>
+        </div>
+ 
+        <div class="container">
+ 
+            <div class="card-columns">
+                <div class="card">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px; height: 300px;" class="img-fluid" src="static/images/ulala.png" alt="">
+                        <h5 style="color: white;">Dose: 25-40 gm/Acre</h5>
+                        <p style="color: white;">Flonicamid 50% (Ulala) a systemic insecticide for controling the sucking pest like Aphids, Jassids, Thrips, Whitefly With the widest spectrum and longest duration of control.</p>
+                        <button onclick="document.location='https://dir.indiamart.com/items/upl-ulala-insecticide-s173965.html'" style="padding: 15px; background-color: #ffbd39; color: white;"
+                        class="text-center my-3 content-h3">Purchase</button>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px; height: 300px;" class="img-fluid" src="static/images/victor.png" alt="">
+                        <h5 style="color: white;">Dose: 25-35 ml/Acre</h5>
+                        <p style="color: white;">It helps for treating crops against mealybugs. While contact mode of action it effectively controls a broad spectrum of insects, pests in their various stages of growth.</p>
+                        <button onclick="document.location='https://www.indiamart.com/proddetail/victor-systemic-insecticide-15745148662.html'" style="padding: 15px; background-color: #ffbd39; color: white;"
+                        class="text-center my-3 content-h3">Purchase</button>
+                    </div>
+
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px; height: 300px;" class="img-fluid" src="static/images/actara.png" alt="">
+                        <h5 style="color: white;">Dose: 60-80 gm/Acre</h5>
+                        <p style="color: white;">Actara delivers fast elimination of sucking and chewing pest. Actara quickly penetrates the leaf's surface and eliminates pests within 24 hours while also providing residual control.</p>
+                        <button onclick="document.location='https://www.indiamart.com/proddetail/actara-insecticide-syngenta-22238426030.html'" style="padding: 15px; background-color: #ffbd39; color: white;"
+                        class="text-center my-3 content-h3">Purchase</button>
+                    </div>
+                </div>
+ 
+            </div>
+ 
+            
+            <h5 style="padding: 15px; color: white;"
+                class="text-center my-3 contents">
+                @Prince Ajudiya & Yagnik Bavishi</h5>
+        </div>
+ 
+    </section>
+ 
+</body>
+ 
+</html>

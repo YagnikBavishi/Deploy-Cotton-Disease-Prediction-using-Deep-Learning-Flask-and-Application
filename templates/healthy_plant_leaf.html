@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+ 
+    <title>COTTON PLANT DISEASE PREDICTION</title>
+ 
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            background-color: black;
+        }
+ 
+        .border img {
+            border-radius: 15px;
+            border: 2px solid #ffbd39;
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+    <div>
+        <img src="static/images/BeFunky-design1.png" class="w3-border w3-padding" alt="Indian AI Production"
+            style="width:100% ; border: 2px solid #ffbd39;">
+    </div>
+ 
+    <div class="container-fluid">
+        <br>
+        <div class="row mb-5">
+ 
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <!-- <span class="border border-primary">
+                    <img src="{{ user_image }}" alt="User Image" class="img-thumbnail">
+                     
+                </span> -->
+
+                <img style="height: 450px ; width: 450px; margin-left: 200px; border :5px solid #ffbd39;" src="{{ user_image }}" alt="User Image" class="img-thumbnail" >
+
+            </div>
+ 
+            
+            <div class="col-sm">
+ 
+                <div>
+                    <h1 style="padding: 15px; background-color: #ffbd39; color: white; margin-right: 200px;"
+                           class="text-center mb-5 content-h1 ">
+                        {{pred_output}} </h1>
+                </div>
+                <div class="details">
+ 
+                    <h6 style="color: white;">
+ 
+                        There is no disease on the cotton plant.</br>
+                        Although the chemical fertilizer has fallen on the leaves of the tree, the leaves are burnt, but
+                        there is no need to worry.</br></br>
+                        <!-- <b>कपास के पेड़ पर कोई बीमारी नहीं है। </b></br>
+                        रासायनिक उर्वरक पेड़ की पत्तियों पर गिर गया है, पत्तियां जल गई हैं, लेकिन चिंता करने की कोई
+                        जरूरत नहीं है।</br></br>
+                        <b>કપાસના છોડ ઉપર કોઈ રોગ નથી. </b><br>જોકે રાસાયણિક ખાતર ઝાડના પાંદડા પર પડ્યું છે, પાંદડા બળી ગયા છે, પરંતુ ચિંતા કરવાની કોઈ જરૂર નથી.</br></br> -->
+ 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+ 
+</html>
